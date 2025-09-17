@@ -9,6 +9,7 @@ public class InsertElementEtFirstInArraylist {
         list.add(100);
         list.add(30);
         list.add(200);
+        list.add(500);
         System.out.println(list);
         list.add(0,500);
 
