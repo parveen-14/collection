@@ -12,9 +12,10 @@ public class InsertElementEtFirstInArraylist {
         list.add(500);
         System.out.println(list);
         list.add(0,500);
+        list.add(1,300);
 
-        for(Integer i:list){
-            System.out.println(i);
+        for(Integer it:list){
+            System.out.println(it);
         }
     }
 }
